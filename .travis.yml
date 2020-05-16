@@ -6,3 +6,10 @@ install:
 - dotnet restore
 script:
 - dotnet build
+notifications:
+  email:
+    recipients:
+      - shubham.jng@gmail.com
+      - jitenderdhiman@gmail.com
+    on_success: always # default: change
+    on_failure: always # default: always
